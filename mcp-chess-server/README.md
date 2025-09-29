@@ -5,11 +5,9 @@ Install this MCP server by adding the following to your JSON config:
       "command": "uvx",
       "args": [
         "--from",
-        "git+",
+        "git+https://github.com/shivyam/mcp-servers.git#subdirectory=mcp-chess-server",
         "run",
         "chess"
       ]
     }
 ```
-
-Then run `mcpctl install mcp-chess-server` to install the server.
